@@ -7,6 +7,7 @@ import {useState} from 'react';
 
 export default function Home() {
     const [open, setOpen] = useState(false);
+    const [GPT, setGPT] = useState({});
 
     function changeOpen() {
         console.log("open");
@@ -16,9 +17,9 @@ export default function Home() {
     return(
     <div className="bg-stone-200 flex px-8 py-5 w-full h-full gap-5">
         <Sidebar/>
-        <WorkoutPage num="1" changeOpen={changeOpen}>
+        <WorkoutPage GPT={GPT} num="1" changeOpen={changeOpen}>
         </WorkoutPage>
-        <Popup open= {open} setOpen={changeOpen} />
+        <Popup open= {open} setOpen={changeOpen} setGPT={setGPT} />
     </div>
     );
 }
