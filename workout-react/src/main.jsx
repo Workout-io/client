@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route, createBrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from "./pages/Login.jsx";
 import Home from "./pages/Home.jsx";
 import { ThemeProvider } from '@mui/material/styles';
-import theme from './theme/theme.js'; // Import your custom theme
+import theme from './theme/theme.js'; 
 
 import "./index.css"
 
@@ -14,8 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/" element={<Login/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
       </Routes> 
     </BrowserRouter>
