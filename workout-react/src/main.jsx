@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route, createBrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from "./pages/Login.jsx";
 import Home from "./pages/Home.jsx";
 import { ThemeProvider } from '@mui/material/styles';
-import theme from './theme/theme.js'; // Import your custom theme
+import theme from './theme/theme.js'; 
 
 import "./index.css"
 

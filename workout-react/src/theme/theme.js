@@ -4,7 +4,7 @@ const theme = createTheme({
   typography: {
     fontFamily: [
       'Fredoka',
-      'Arial',
+      'Arial', 
       'sans-serif',
     ].join(','),
   },
