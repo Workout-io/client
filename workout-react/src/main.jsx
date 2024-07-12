@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/workout" element={<Workout/>}></Route>
         <Route path="/workout/pushup" element={<PushRecord/>}></Route>
-        <Route path="/workout/squat" element={<SquatRecord/>}></Route>
+        <Route path="/workout/dumbell" element={<SquatRecord/>}></Route>
         <Route path="/workout/lunges" element={<LungesRecord/>}></Route>
         <Route path="/workout/situp" element={<SitRecord/>}></Route>
 
