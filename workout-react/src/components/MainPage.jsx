@@ -28,13 +28,7 @@ const MainPage = ({ num }) => {
           <div className="flex justify-center items-center w-full h-24 bg-stone-100 rounded-xl font-semibold">Keep Going!</div>
         </div>
       </div>
-      <div className="pt-96 absolute inset-0 pointer-events-none">
-        <svg className="pt-56 w-full h-auto" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
-          <g transform="scale(1, -1) translate(0, -320)">
-            <path fill="#000" fillOpacity="1" d="M0,224L48,208C96,192,192,160,288,160C384,160,480,192,576,208C672,224,768,224,864,192C960,160,1056,96,1152,80C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-          </g>
-        </svg>
-      </div>
+    
     </div>
   )
 }
