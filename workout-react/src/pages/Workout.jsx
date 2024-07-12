@@ -11,7 +11,7 @@ export default function Home() {
         <Sidebar/>
         <MainPage num="1"/>
 
-        <Popup></Popup>
+        <Popup active= {open} />
     </div>
     );
 }
