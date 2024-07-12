@@ -8,7 +8,7 @@ const MainPage = ({num}) => {
   }
 
   return (      
-    <div className="w-full h-full rounded-xl bg-white drop-shadow-xl px-10 py-5 gap-10">
+    <div style={style} className="w-full h-full rounded-xl bg-white drop-shadow-xl px-10 py-5 gap-10">
         <NavBar num={num}/>
         <div className="h-full w-full flex justify-center items-center">
             <Data></Data>
