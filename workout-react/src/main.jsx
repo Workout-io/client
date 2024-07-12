@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from "./pages/Login.jsx";
 import Home from "./pages/Home.jsx";
-import Record from "./pages/Record.jsx";
+import PushRecord from "./pages/Record.jsx";
 
 import Workout from "./pages/Workout.jsx";
 import Profile from "./pages/Profile.jsx";
@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Login/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/workout" element={<Workout/>}></Route>
-        <Route path="/workout/record" element={<Record/>}></Route>
+        <Route path="/workout/pushup" element={<PushRecord/>}></Route>
         <Route path="/profile" element={<Profile/>}></Route>
 
       </Routes> 
