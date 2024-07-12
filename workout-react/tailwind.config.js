@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Kanit']
+        body: ['Fredoka']
       },
     },
     screens: {
