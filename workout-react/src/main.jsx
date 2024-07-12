@@ -4,6 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from "./pages/Login.jsx";
 import Home from "./pages/Home.jsx";
 import PushRecord from "./pages/Record.jsx";
+import SquatRecord from "./pages/SquatRecord.jsx";
+import LungesRecord from "./pages/LungesRecord.jsx";
+
+
 
 import Workout from "./pages/Workout.jsx";
 import Profile from "./pages/Profile.jsx";
@@ -24,6 +28,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/workout" element={<Workout/>}></Route>
         <Route path="/workout/pushup" element={<PushRecord/>}></Route>
+        <Route path="/workout/squat" element={<SquatRecord/>}></Route>
+        <Route path="/workout/lunges" element={<LungesRecord/>}></Route>
+
         <Route path="/profile" element={<Profile/>}></Route>
 
       </Routes> 

@@ -39,7 +39,7 @@ const RecordPage = ({sets}) => {
       const a = document.createElement('a');
       a.style.display = 'none';
       a.href = url;
-      a.download = 'halo.webm';
+      a.download = 'squat.webm';
       document.body.appendChild(a);
       a.click();
 
@@ -61,7 +61,7 @@ const RecordPage = ({sets}) => {
             <button onClick={() => stopVideo(recording.id)}>Stop Recording</button>
           </div>
         ))}
-        <div className={`flex font-semibold text-2xl justify-items-center items-center pt-80 pb-2 ${title ? 'hidden' : 'pt-80'}`}>PUSH UP!</div> 
+        <div className={`flex font-semibold text-2xl justify-items-center items-center pt-80 pb-2 ${title ? 'hidden' : 'pt-80'}`}>LUNGES!</div> 
         <div className={`flex font-medium text-2xl justify-items-center items-center pb-2 ${title ? 'hidden' : ''}`}>{nol} REPS</div> 
 
         <button onClick={recordVideo} style={{ cursor: "pointer", boxShadow: "5px 5px 0px 0px rgb(59, 130, 246, 1)" }}

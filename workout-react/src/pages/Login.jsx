@@ -9,7 +9,7 @@ export default function App() {
 
   async function loginTrial() {
     try {
-      const response = await fetch('https://be-workoutio-jvz5992or-vinzzzttys-projects.vercel.app/api/accounts/login', {
+      const response = await fetch('https://be-production.vercel.app/api/accounts/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

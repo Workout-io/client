@@ -1,20 +1,15 @@
 import Button from '@mui/material/Button';
 import {useState} from 'react';
-export default function Popup({active}) {
+export default function Popup({open, setOpen}) {
 
-    const [on, setOn] = useState(active);
-
-    function toggleOn() {
-        setOn(!on);
-    }
 
 
     return(
-    <div className={`fixed inset-0 flex justify-center items-center transition-colors ${on ? 'visible pointer-events-auto' : 'invisible pointer-events-none'} bg-black/50`}>
+    <div className={`fixed inset-0 flex justify-center items-center transition-colors ${open ? 'visible pointer-events-auto' : 'invisible pointer-events-none'} bg-black/50`}>
         <div className="bg-white text-black justify-center rounded-xl items-center w-1/4 h-3/4 p-6">
             <div className="text-center text-2xl pt-10 pb-7 font-medium relative">
                 Create a new plan! 
-                <span className='absolute top-2 right-2 cursor-pointer' onClick={toggleOn}>&times;</span>
+                <span className='absolute top-2 right-2 cursor-pointer' onClick={setOpen}>&times;</span>
             </div>
             
         <div className="flex flex-col px-12">
