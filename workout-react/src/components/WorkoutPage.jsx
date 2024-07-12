@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from './Navbar'
 import Popup from './Popup'
 
 
 import WorkoutCard from './WorkoutCard/WorkoutCard'
 
-const WorkoutPage = ({num, changeOpen}) => {
+const WorkoutPage = ({GPT, num, changeOpen}) => {
+  const GPTmuscle = GPT.data[1].muscle;
+  useEffect(()=>{
+    console.log(GPT);
+    console.log(GPTdata);
+  }, [GPT])
+
     const style = {
       boxShadow: "8px 8px 0px rgba(0, 0, 0, 0.1)"
     }

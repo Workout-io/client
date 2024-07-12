@@ -6,6 +6,8 @@ import Home from "./pages/Home.jsx";
 import PushRecord from "./pages/Record.jsx";
 import SquatRecord from "./pages/SquatRecord.jsx";
 import LungesRecord from "./pages/LungesRecord.jsx";
+import SitRecord from "./pages/SitRecord.jsx";
+
 
 
 
@@ -30,6 +32,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/workout/pushup" element={<PushRecord/>}></Route>
         <Route path="/workout/squat" element={<SquatRecord/>}></Route>
         <Route path="/workout/lunges" element={<LungesRecord/>}></Route>
+        <Route path="/workout/situp" element={<SitRecord/>}></Route>
+
 
         <Route path="/profile" element={<Profile/>}></Route>
 
