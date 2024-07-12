@@ -6,7 +6,7 @@ import WorkoutPage from '../components/WorkoutPage';
 import {useState} from 'react';
 
 export default function Home() {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
 
     return(
     <div className="bg-stone-200 flex px-8 py-5 w-full h-full gap-5">
