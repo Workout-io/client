@@ -23,7 +23,7 @@ const Sidebar = () => {
     <div style={style} className="flex flex-col items-center justify-center gap-5 h-full w-36 rounded-xl bg-white drop-shadow-xl">
       <BorderLinearProgress className="mt-96 mb-32" variant="determinate" value={80} />
       <div className='bg-gray-400 rounded-xl h-10 mt-16 w-1/3'></div>
-      <div className='bg-gray-400 rounded-xl h-1/6 w-2/3'></div>
+      <div className='bg-gray-400 rounded-xl h-1/6 w-2/3 mb-3'></div>
     </div>
   )
 }
