@@ -7,10 +7,6 @@ import PushRecord from "./pages/Record.jsx";
 import SquatRecord from "./pages/SquatRecord.jsx";
 import LungesRecord from "./pages/LungesRecord.jsx";
 import SitRecord from "./pages/SitRecord.jsx";
-
-
-
-
 import Workout from "./pages/Workout.jsx";
 import Profile from "./pages/Profile.jsx";
 

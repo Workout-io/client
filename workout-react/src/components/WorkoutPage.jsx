@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import Navbar from './Navbar'
 import Popup from './Popup'
 
@@ -6,11 +6,14 @@ import Popup from './Popup'
 import WorkoutCard from './WorkoutCard/WorkoutCard'
 
 const WorkoutPage = ({GPT, num, changeOpen}) => {
-  const GPTmuscle = GPT.data[1].muscle;
-  useEffect(()=>{
+  const [GPTmuscle, setGPTmuscle] = useState(null);
+
+  useEffect(() => {
+    if (GPT && GPT.data && GPT.data.length > 0) {
+      setGPTmuscle(GPT.data[0].muscle);
+    }
     console.log(GPT);
-    console.log(GPTdata);
-  }, [GPT])
+  }, [GPT]);
 
     const style = {
       boxShadow: "8px 8px 0px rgba(0, 0, 0, 0.1)"
