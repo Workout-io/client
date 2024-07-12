@@ -13,7 +13,7 @@ export default function Home() {
         <Sidebar/>
         <WorkoutPage num="1"></WorkoutPage>
 
-        <Popup></Popup>
+        <Popup active= {open} />
     </div>
     );
 }
