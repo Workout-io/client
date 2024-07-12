@@ -8,7 +8,6 @@ const theme = createTheme({
       'sans-serif',
     ].join(','),
   },
-
 });
 
 export default theme;
