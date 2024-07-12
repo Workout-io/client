@@ -1,4 +1,4 @@
-import MainPage from '../components/PushRecord';
+import MainPage from '../components/SquatPage';
 import Sidebar from '../components/Sidebar'
 
 export default function Home() {
