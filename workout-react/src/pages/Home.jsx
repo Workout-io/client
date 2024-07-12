@@ -1,10 +1,11 @@
-import TextField from '@mui/material/TextField';
+import MainPage from '../components/MainPage';
+import Sidebar from '../components/Sidebar'
 
-export default function App() {
+export default function Home() {
     return(
-    <div>
-        Hi I'm Home
-        <TextField variant="outlined" label="Email" type="email" />
+    <div className="bg-stone-200 flex px-8 py-5 w-full h-full gap-5">
+        <Sidebar></Sidebar>
+        <MainPage/>
     </div>
     );
 }
