@@ -6,7 +6,7 @@ import WorkoutPage from '../components/WorkoutPage';
 import {useState} from 'react';
 
 export default function Home() {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     function changeOpen() {
         console.log("open");
