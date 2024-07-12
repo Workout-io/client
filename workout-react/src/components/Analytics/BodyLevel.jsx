@@ -71,7 +71,7 @@ const BodyLevel = () => {
         <div className="w-1/2 h-1/2">
           <img src={image} alt="Body level" />
         </div>
-        <div className="flex flex-col w-full gap-5">
+        <div className="flex flex-col w-full gap-5 bg-stone-200 px-5 py-5 rounded-xl shadow-xl font-medium">
           <div className="w-full">
             <span>Chest</span>
             <Box sx={{ width: '100%', height: '50%' }}>
